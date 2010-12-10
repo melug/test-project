@@ -34,3 +34,4 @@ def playNumber(number):
 
 def showList():
     print 'showing list'
+    print open(__path__[0] + '/streamlist.txt').read()
